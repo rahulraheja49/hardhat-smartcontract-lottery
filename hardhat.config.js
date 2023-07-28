@@ -33,6 +33,10 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY],
       saveDeployments: true,
     },
+    localhost: {
+      chainId: 31337,
+      blockConfirmations: 1,
+    },
   },
   gasReporter: {
     enabled: false,
